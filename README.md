@@ -5,10 +5,14 @@ Reads the log file and tell the top 3 items consumed.
 1. Ping Request 
 ```
 curl --location 'localhost:8080/ping'
+```
+
+```
 Response
 {
     "message": "pong"
 }
+```
 
 ```
 
