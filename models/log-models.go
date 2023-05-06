@@ -9,6 +9,3 @@ type MenuLogLine struct{
 	FoodMenuId int `json:"foodmenu_id"`
 }
 
-type UploadMenuLogRequest struct{
-	MenuLogs MenuLogs `json:"menu_logs"`
-}

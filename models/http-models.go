@@ -6,6 +6,10 @@ type Response struct {
 	Data       interface{} `json:"data"`
 }
 
+type UploadMenuLogRequest struct{
+	MenuLogs MenuLogs `json:"menu_logs"`
+}
+
 type TopMenuItems struct{
-	TopItemIds []int `json:"top_item_ids`
+	TopItemIds []int `json:"top_food_item_ids"`
 }

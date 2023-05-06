@@ -42,7 +42,7 @@ func UploadMenuLogController(ctx *gin.Context) {
 	}
 
 	ctx.JSON(http.StatusOK,models.Response{
-		StatusCode: http.StatusInternalServerError,
+		StatusCode: http.StatusOK,
 		Error: "",
 		Data: data,
 	})
