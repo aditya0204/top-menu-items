@@ -14,7 +14,6 @@ Response
 }
 ```
 
-```
 
 2. Upload menu logs
 ```
