@@ -11,6 +11,7 @@ Response
 }
 
 2. Upload menu logs
+```
 Request
 
 curl --location 'localhost:8080/upload-menu-log' \
@@ -41,8 +42,9 @@ curl --location 'localhost:8080/upload-menu-log' \
         ]
     }
 }'
+```
 
-
+```
 Response:-
 
 {
@@ -54,3 +56,4 @@ Response:-
         ]
     }
 }
+```
