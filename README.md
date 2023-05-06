@@ -1,14 +1,16 @@
 # top-menu-items
 Reads the log file and tell the top 3 items consumed.
 
-##API docs
-1. 
-Request 
+## API docs
+1. Ping Request 
+```
 curl --location 'localhost:8080/ping'
 Response
 {
     "message": "pong"
 }
+
+```
 
 2. Upload menu logs
 ```
