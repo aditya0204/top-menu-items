@@ -1,7 +1,15 @@
 # top-menu-items
 Reads the log file and tell the top 3 items consumed.
 
+## to build the program
+Directly run
+``` go run main.go ```
+
+Build and run
+```go build -o main && ./main```
+
 ## API docs
+Default port is 8080
 1. Ping Request 
 ```
 curl --location 'localhost:8080/ping'
