@@ -1,0 +1,1 @@
+go test -v services/menu-service_test.go 
