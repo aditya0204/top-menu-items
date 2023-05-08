@@ -1,10 +1,6 @@
 # top-menu-items
 Reads the log file and tell the top 3 items consumed.
 
-##API docs
-1. 
-Request 
-
 ## to build the program
 Directly run
 ``` go run main.go ```
